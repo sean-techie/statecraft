@@ -9,7 +9,7 @@ export default function Home() {
   const topic = "Variables and JSX";
 
   return (
-    <main className="min-h-screen bg-blue-950 text-white flex flex-col items-center justify-center gap-4">
+    <main className="min-h-screen bg-neutral-900 text-neutral-200 flex flex-col items-center justify-center gap-4">
       <h1 className="text-5xl font-bold">
         {title}
       </h1>
@@ -23,7 +23,7 @@ export default function Home() {
       </p>
 
       <button
-        className="bg-white text-pink-700 px-4 py-2 rounded-lg"
+        className="bg-white text-neutral-950 px-4 py-2 rounded-lg"
         onClick={() => setLesson(lesson + 1)}
       >
         Next Lesson
