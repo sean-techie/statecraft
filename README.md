@@ -1,36 +1,259 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# StateCraft 
 
-## Getting Started
+> Learn by building. Understand by doing.
 
-First, run the development server:
+StateCraft is a personal learning project designed to document and strengthen my understanding of modern web development through practical experimentation and real-world projects.
+
+Rather than simply copying code, StateCraft focuses on understanding **how** and **why** code works while building with industry-standard technologies.
+
+---
+
+#  Project Overview
+
+StateCraft serves as:
+
+- A learning dashboard
+- A coding notebook
+- A playground for experimentation
+- A challenge platform for practicing concepts
+- A portfolio of progress and growth
+
+The project is intentionally built incrementally, with each lesson introducing new concepts that are immediately applied in code.
+
+---
+
+#  Project Goals
+
+- Develop a strong understanding of React fundamentals.
+- Learn the Next.js App Router architecture.
+- Build confidence writing code independently.
+- Understand component architecture and application structure.
+- Learn modern frontend development workflows.
+- Document progress and lessons learned throughout the journey.
+
+---
+
+# 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Next.js | Full-stack React framework |
+| React | User interface library |
+| TypeScript | Type safety and developer tooling |
+| Tailwind CSS | Utility-first styling framework |
+| App Router | File-based routing system |
+| Git | Version control |
+| GitHub | Source code hosting |
+| Vercel | Deployment platform |
+
+---
+
+#  Project Structure
+
+```text
+app/
+│
+├── page.tsx                 # Homepage
+│
+├── about/
+│   └── page.tsx             # About StateCraft
+│
+├── lessons/
+│   └── page.tsx             # Learning roadmap
+│
+├── notes/
+│   └── page.tsx             # Personal coding notes
+│
+├── playground/
+│   └── page.tsx             # Experimentation area
+│
+├── challenges/
+│   └── page.tsx             # Coding exercises
+│
+├── globals.css              # Global styles
+└── layout.tsx               # Shared application layout
+```
+
+---
+
+#  Pages
+
+## Home
+The central dashboard of StateCraft containing navigation and the current lesson focus.
+
+---
+
+## About
+Provides an overview of the project, its purpose, and learning philosophy.
+
+---
+
+## Lessons
+Contains structured learning content covering:
+
+- Variables
+- JSX
+- State Management
+- Components
+- Props
+- Hooks
+- Routing
+- API Integration
+
+---
+
+## Notes
+A personal knowledge base containing:
+
+- Definitions
+- Reminders
+- Syntax references
+- Important discoveries
+
+---
+
+## Playground
+A safe environment for experimentation and testing ideas without affecting the main application.
+
+---
+
+## Challenges
+Small coding exercises designed to reinforce concepts and improve problem-solving skills.
+
+---
+
+#  Current Learning Progress
+
+Current topics include:
+
+- Variables
+- JSX
+- React Components
+- App Router
+- useState
+- Tailwind CSS Fundamentals
+
+---
+
+# Development Philosophy
+
+StateCraft follows a simple principle:
+
+> Learn the concept.
+>
+> Build the concept.
+>
+> Explain the concept.
+>
+> Repeat.
+
+The objective is not to memorize code but to understand the reasoning behind every line written.
+
+---
+
+#  Planned Features
+
+## Learning Features
+
+- Lesson progression tracking
+- Completion badges
+- Learning milestones
+- Search functionality
+- Progress dashboard
+
+## Technical Features
+
+- Dark mode support
+- Persistent data storage
+- Markdown lesson rendering
+- Dynamic routing
+- API integrations
+
+## UI Improvements
+
+- Navigation bar
+- Responsive layouts
+- Improved typography
+- Animations and transitions
+- Custom theme system
+
+---
+
+#  Learning Roadmap
+
+### Phase 1 — Foundations
+- Variables
+- JSX
+- Components
+- Props
+- useState
+
+### Phase 2 — Intermediate React
+- useEffect
+- Forms
+- Conditional Rendering
+- Lists and Mapping
+
+### Phase 3 — Next.js
+- Routing
+- Layouts
+- Dynamic Routes
+- Server Components
+
+### Phase 4 — Advanced Concepts
+- APIs
+- Authentication
+- Databases
+- Deployment
+
+---
+
+#  Running Locally
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+#  Contributing
 
-To learn more about Next.js, take a look at the following resources:
+This project is primarily a personal learning journey, but feedback, suggestions, and discussions are always welcome.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+#  Author
 
-## Deploy on Vercel
+**Reseanne Rampou**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Frontend Developer in training, building projects and learning modern web technologies one concept at a time.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+#  Motto
+
+> Build.
+>
+> Break.
+>
+> Learn.
+>
+> Repeat.
+
+---
+
+Made with , curiosity, and a lot of debugging.
