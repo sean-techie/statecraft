@@ -1,7 +1,7 @@
 export default function AboutPage() {
 
     return (
-        <main className="min-h-screen bg-neutral-900 text-neutral-100 flex items-center justify-center">
+        <main className="min-h-screen bg-teal-900 text-neutral-100 flex items-center justify-center">
             <div className="text-center">
             <h1 className=" text-4xl font-bold">
             About State

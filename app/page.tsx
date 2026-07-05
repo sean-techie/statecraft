@@ -9,8 +9,8 @@ export default function Home() {
   const topic = "Variables and JSX";
 
   return (
-    <main className="min-h-screen bg-neutral-900 text-neutral-200 flex flex-col items-center justify-center gap-4">
-      <h1 className="text-5xl font-bold">
+    <main className="min-h-screen bg-teal-900 text-neutral-200 flex flex-col items-center justify-center gap-4">
+      <h1 className="text-4xl font-bold">
         {title}
       </h1>
 
